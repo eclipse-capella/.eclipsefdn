@@ -2,4 +2,4 @@
 *             @eclipse-capella/eclipsefdn-releng
 
 # Otterdog related configurations are also owned by the security team.
-/otterdog/**  @eclipse-capella/eclipsefdn-security @eclipse-capella/eclipsefdn-releng
+/otterdog/**  @eclipse-capella/eclipsefdn-security
