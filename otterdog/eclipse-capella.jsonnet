@@ -7,7 +7,6 @@ orgs.newOrg('eclipse-capella') {
     description: "MBSE tool to successfully design system, software, and hardware architecture",
     email: "webmaster@eclipse-foundation.org",
     name: "Eclipse Capella™",
-    readers_can_create_discussions: true,
     two_factor_requirement: false,
     web_commit_signoff_required: false,
     workflows+: {
