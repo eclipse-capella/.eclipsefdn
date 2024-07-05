@@ -379,7 +379,7 @@ orgs.newOrg('eclipse-capella') {
           ],
           deployment_branch_policy: "selected",
         },
-      ],     
+      ],
     },
     orgs.newRepo('capella-xhtml-docgen') {
       allow_merge_commit: true,
