@@ -371,7 +371,7 @@ orgs.newOrg('eclipse-capella') {
       ],
       web_commit_signoff_required: false,
       workflows+: {
-        enabled: false,
+        default_workflow_permissions: "write",
       },
       environments: [
         orgs.newEnvironment('github-pages') {
@@ -382,7 +382,7 @@ orgs.newOrg('eclipse-capella') {
           ],
           deployment_branch_policy: "selected",
         },
-      ],
+      ],     
     },
     orgs.newRepo('capella-xhtml-docgen') {
       allow_merge_commit: true,
