@@ -370,9 +370,6 @@ orgs.newOrg('eclipse-capella') {
         "capella"
       ],
       web_commit_signoff_required: false,
-      workflows+: {
-        default_workflow_permissions: "read",
-      },
       environments: [
         orgs.newEnvironment('github-pages') {
           branch_policies+: [
