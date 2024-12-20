@@ -1,6 +1,6 @@
 local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
-orgs.newOrg('eclipse-capella') {
+orgs.newOrg('polarsys.capella', 'eclipse-capella') {
   settings+: {
     blog: "https://projects.eclipse.org/projects/polarsys.capella",
     description: "MBSE tool to successfully design system, software, and hardware architecture",
